@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Joe Jonaitis - Blasteroids</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Joe Jonaitis</h1>
+        <p id="short_bio">
+          Python Programmer<br />
+          Grand Rapids, MI
+        </p>
+        
+        <p class="nav_links"><a href="index.html">About Me</a></p>
+        <p class="nav_links"><a href="projects.html">Sample Projects</a></p>
+      </header>
+      <section>
+        <h1>Blasteroids</h1>
+        
+        <p>I designed a one-player game similar to Asteroids by Atari, Inc.  The program uses three classes for images, the spaceship, and the asteroids/missiles.  Primary functions include key handlers, a draw function, an asteroid spawner, and functions to test for collisions between missiles and asteroids and the ship and asteroids.  The program runs using three imported packages, simpleguitk, math, and random.</p>
+        
+        <p>To begin the game and exit the splash screen, a player needs to click the mouse.  The player can move the spaceship forward using the forward arrow key and can turn the spaceship using the left or right arrow key.  The spacebar fires missiles.  Points are awarded when a missile hits an asteroid.  If an asteroid hits the spaceship, one life is lost.  A player starts with 3 lives.  Up to 10 asteroids are generated at a time, one per second, and all with varying forward velocity, spin velocity, and spin direction.  As the player destroys more asteroids and moves up in levels in the game, the asteroids increase in velocity.</p>
+        
+        <p>My next step on this program is to add the image of a explosion when a missile hits an asteroid or an asteroid hits a spaceship.  After the program was working in CodeSkulptor (an interactive, web-based Python programming environment that allows Python code to be run in a web browser), I ran into an issue in which the spaceship remained in thrust or turned left when the forward arrow key or left arrow key were pressed.  I need to debug this issue and suspect it is an issue with either an update to CodeSkulptor or Google Chrome since a similar issue appeared wtih another program and since this program was originally working for a couple months.</p>
+        
+        <p>Go to <a href="https://github.com/joenaitis/Blasteroids">my repository</a> in GitHub to see my code or click on this <a href="https://py2.codeskulptor.org/#user49_YedwzqGkFE_1.py">link</a> to run this program in CodeSkulptor.</p>
+        
+        <a href="images/blasteroids.png"><img src="images/blasteroids.png" alt="Blasteroids" title="Blasteroids">
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
